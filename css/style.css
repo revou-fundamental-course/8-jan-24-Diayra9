@@ -53,6 +53,10 @@ button:hover {
     background-color: aqua;
 }
 
+button:disabled {
+    background-color: red;
+}
+
 button:active {
     background-color: darkblue;
     transform: translateY(5px);
